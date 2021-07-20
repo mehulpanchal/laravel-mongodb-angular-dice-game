@@ -20,6 +20,10 @@ This is Web application where in a user can login as an administrator or a learn
 
 	• 	Export this data in the form of a CSV & a PDF file
 
+## Demo
+
+	https://github.com/mehulpanchal/laravel-mongodb-angular-dice-game/blob/master/Dice-Project.mp4
+
 ## Technologes Used
 
 - Database - MongoDB 
