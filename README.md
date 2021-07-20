@@ -46,7 +46,7 @@ This is Web application where in a user can login as an administrator or a learn
 	- php artisan db:seed	
 
 
-- Angular (change directory frontend/)
+- Angular (change directory my-app/)
 
 	- npm install
 
