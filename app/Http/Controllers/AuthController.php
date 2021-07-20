@@ -52,7 +52,9 @@ class AuthController extends Controller
                 $user->id = $user->_id;
                 return response(['user' => $user,'token'=>auth()->login($user),'status' => true]);
     		}else{
-    			//If the user is not registered on the database, they are automatically registered using the entered credentials. They are marked as learners.
+                // TO DO if user has email request for forgot password 
+
+                //If the user is not registered on the database, they are automatically registered using the entered credentials. They are marked as learners.
     			$status = $this->create($request);
     			if(!empty($status) && $status != null){
     				$login = $this->login($request);

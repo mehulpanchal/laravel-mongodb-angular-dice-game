@@ -33,37 +33,45 @@ This is Web application where in a user can login as an administrator or a learn
 
 - MongoDB
 
-	• 	start mondod server
+	- start mongod server
 
 - Laravel 
 
-	• 	composer install
+	- composer install
 
-	• 	once install run server "php artisan serve"	
+	- once install run server "php artisan serve"	
 
-	• 	php artisan migrate
+	- php artisan migrate
 
-	• 	php artisan db:seed	
+	- php artisan db:seed	
 
 
-- Angular (change directory frontend)
+- Angular (change directory frontend/)
 
-	• 	npm install
+	- npm install
 
-	• 	npm start
+	- npm start
 
-	• 	php artisan db:seed	
 
 ## Testing Guide
 
--Credentials
+- Credentials
 
 	- Learner
 
+		Username : learner@dicegame.com
 
-	- Admin
+		Pasword : 123456789
 
+		Nickname : Learner
 
+	- Admin 
+
+		Username : administrator@dicegame.com
+
+		Pasword : administrator
+
+		Nickname : Admin
 
 ## Developer
 	

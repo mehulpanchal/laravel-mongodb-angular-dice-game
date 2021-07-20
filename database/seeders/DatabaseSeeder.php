@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'learner@dicegame.com',
             'nickname' => "Learner",
             'role' => 'learner',
-            'password' => Hash::make('123456'),
+            'password' => Hash::make('123456789'),
         ]);
         \App\Models\User::create([
             'email' => 'administrator@dicegame.com',
